@@ -19,7 +19,12 @@ Setting up Spinakker has three steps:
 2. On the Select Template page, keep the default setting for the template URL, and then choose Next.
 3. On the Specify Details page, review the parameters for the template. Enter values for the parameters that require your input. For all other parameters, you can customize the default settings provided by the template. Suggested parameters are as follows: 
 
+<center>
+  
 ![parameters](https://media.github.ncsu.edu/user/8135/files/07f85076-3b73-11e8-9cad-350dacfd1e48)
+
+</center>
+
 4. On the Review page, review and confirm the template settings. Under Capabilities, select the check box to acknowledge that the template will create IAM resources.
 5. Choose Create to deploy the stack.
 6. Monitor the status of the stack. When the status is CREATE_COMPLETE, the deployment is complete. It takes about 5 minutes.
@@ -43,4 +48,4 @@ ssh -i keys/devops.pem –L 9000:localhost:9000 -L 8084:localhost:8084 -L 8087:l
 
 ## Demo
 
-The demo of using Spinnaker can be found ![here](https://www.youtube.com/watch?v=3R59USSvtqQ&t=26s).
+The demo of using Spinnaker can be found [here](https://www.youtube.com/watch?v=3R59USSvtqQ&t=26s).
