@@ -6,7 +6,7 @@ Created at Netflix, it has been battle-tested in production by hundreds of teams
 
 Spinnaker provides pipeline capabilities that expedite and simplify the devops process. It natively integrates with various cloud providers enabling automated deployment and management of their services. Some examples of this integration is automatically spinning up and down servers, monitoring server health, and managing load balancing. 
 
-Spinnaker also provides automated triggering of its pipelines through events such as git events, Jenkins build completions, Docker registry updates, and many others. Once being triggered Spinnaker pipelines can perform integration and system tests, packing of software, and the deployment of software. It also provides deployment strategies such as red / black deployment and manual / automatic approval for production.
+Spinnaker also provides automated triggering of its pipelines through events such as git events, Jenkins build completions, Docker registry updates, and many others. Once being triggered Spinnaker pipelines can perform integration and system tests, packing of software, the deployment of software, and more. It also provides deployment strategies such as red / black deployment and manual / automatic approval for production.
 
 ## Setup Instruction  
 Setting up Spinakker has three steps:
