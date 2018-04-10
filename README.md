@@ -2,7 +2,9 @@
 
 ## What is Spinnaker?
 
-## Setup Instruction
+## Setup Instruction  
+Spinnaker is an open source, multi-cloud continuous delivery platform for releasing software changes with high velocity and confidence.
+Created at Netflix, it has been battle-tested in production by hundreds of teams over millions of deployments. It combines a powerful and flexible pipeline management system with integrations to the major cloud providers.  
 
 Setting up Spinakker has three steps:
 
