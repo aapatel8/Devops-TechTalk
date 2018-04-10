@@ -4,6 +4,10 @@
 Spinnaker is an open source, multi-cloud continuous delivery platform for releasing software changes with high velocity and confidence.
 Created at Netflix, it has been battle-tested in production by hundreds of teams over millions of deployments. It combines a powerful and flexible pipeline management system with integrations to the major cloud providers.  
 
+Spinnaker provides pipeline capabilities that expedite and simplify the devops process. It natively integrates with various cloud providers enabling automated deployment and management of their services. Some examples of this integration is automatically spinning up and down servers, monitoring server health, and managing load balancing. 
+
+Spinnaker also provides automated triggering of its pipelines through events such as git events, Jenkins build completions, Docker registry updates, and many others. Once being triggered Spinnaker pipelines can perform integration and system tests, packing of software, and the deployment of software. It also provides deployment strategies such as red / black deployment and manual / automatic approval for production.
+
 ## Setup Instruction  
 Setting up Spinakker has three steps:
 
